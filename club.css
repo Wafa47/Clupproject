@@ -1,0 +1,141 @@
+html,
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  background-color: white;
+}
+
+a{
+    color:black;
+}
+
+
+.list, .copyright {
+    text-align: center;
+    max-width: 960px;
+    margin: 10px auto;
+
+  }
+  
+
+  
+.main {
+    height: 40rem;
+    padding-top: 1rem;
+    background-image: url('eyoel-kahssay-FyCjvyPG9Pg-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  
+.main img {
+    width: 10rem;
+    display: block;
+    margin: auto;
+    margin-top: 5rem;
+  }
+
+  nav {
+    background-color: rgb(234, 246, 169);
+    color: White;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+  }
+  
+  li {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+  
+  }
+
+  
+.about,
+.counter,
+.info, .copyright {
+  margin: 80px auto;
+}
+
+
+.about {
+    display: flex;
+    align-content:center;
+    padding: 1rem;
+  }
+  
+  
+.counter {
+    background-color:  rgb(234, 246, 169);
+    height: 20rem;
+    padding: 1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  h1 ,h2{
+    color: black;
+    font-size: 2.5rem;
+  }
+
+      
+.info {
+  width: 1400px;
+  height: 20rem;
+  padding: 1rem;
+  display: block;
+  align-items: center;
+}
+    
+.info img {
+    display: inline-block;
+    align-content: space-between;
+    width: 20%;
+    height: 100%;
+    }
+
+    button {
+      background-color: #1b8627;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      font-weight: 600;
+      margin-left: 20px;
+  }
+  button:hover{
+      cursor: pointer;
+  }
+  button:active{
+  background-color:white;
+  color: #1b8627;
+  }
+  
+@media only screen and (max-width: 960px) {
+    .main {
+       padding-top: 0;
+     }
+   }
+   
+   @media only screen and (max-width: 700px) {
+    .supporting img {
+     display: none;
+   }
+   }
+   
+   @media only screen and (max-width: 470px) {
+    .rating h1{
+      font-size: 2rem;
+    }
+    .gallery img{
+        margin: 0;
+      }
+      .footer nav{
+        display: none;
+      }
+     }
